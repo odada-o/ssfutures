@@ -47,7 +47,7 @@
     <title>삼성선물</title>
     <!--  공통 css 및 js -->
     <link rel="stylesheet" type="text/css" href="https://www.ssfutures.com/WEB-APP/webponent/thirdParty/jquery/jquery-ui-1.12.1.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://www.ssfutures.com/resources/css/ssf_common.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/ssf_common.css" />
     <link rel="stylesheet" type="text/css" href="/resources/css/ssf_contents.css" />
     <link rel="stylesheet" type="text/css" href="https://www.ssfutures.com/resources/thirdParty/swiper/swiper.min.css" />
     <link rel="stylesheet" type="text/css" href="https://www.ssfutures.com/WEB-APP/webponent/dialog/dialog.css" />
@@ -117,8 +117,8 @@
     <!-- skip nav -->
     <div class="skiplist">
         <ul class="skip">
-            <li><a href="#ssf_contents">본문 바로가기</a></li>
             <li><a href="#ssf_allmenu">전체메뉴 바로가기</a></li>
+            <li><a href="#container">본문 바로가기</a></li>
         </ul>
     </div>
     <!--// skip nav -->
@@ -1790,8 +1790,9 @@
 						
 					</div>
 					<!--// 리서치 -->
+
 					<!-- 투자정보 -->
-					<div class="main_condition swiper-slide">
+					<div id="container" class="main_condition swiper-slide">
 						<div class="inner_main">
 							<h2 class="main_title">투자정보</h2>
 							<div class="condition_market">
